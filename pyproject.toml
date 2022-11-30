@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-mysql-uuid"
+version = "0.1.0"
+description = "MySQL optimized UUID field implementation for Django."
+authors = ["Ha Tran Viet <ha.tran@paradox.ai>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
